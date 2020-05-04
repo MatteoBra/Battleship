@@ -1,0 +1,17 @@
+/***********************/
+
+In the right box (your box):
+
+-right click to build the ships
+-left click to shot
+
+In the left box:
+
+-right click when you discover the opposing players' ship
+-left click when you miss the ship
+
+In both boxes:
+
+-double click to reset the sqaure
+
+/*************************/

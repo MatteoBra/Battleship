@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+body{
+    font-family: 'Permanent Marker', cursive;
+    background-image: url("/images/bg.jpg")
+}
+h1{
+    text-align: center;
+    margin: 5px;
+}
+
+
+/* /title */
+.game-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* Col */
+
+.col{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+.col .alpha {
+    border: 2px transparent solid;
+    margin-bottom: 13.5px;
+}
+
+.alpha img {
+    width: 30px;
+    
+}
+
+.col-player{
+    position: absolute;
+    top: 70px;
+    right: 10px;
+}
+.col-player .alpha-player {
+    border: 2px transparent solid;
+    margin-bottom: 13.5px;
+}
+
+.alpha-player img {
+    width: 30px;
+    
+}
+
+/* /Col */
+
+/* Row */
+.row .numbers{
+    border: 2px transparent solid;
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 45px;
+}
+
+.numbers img {
+    width: 52px;
+    
+}
+
+.row-player .numbers-player{
+    border: 2px transparent solid;
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 45px;
+}
+
+.numbers-player img {
+    width: 52px;
+    
+}
+/* /Row */
+.opposing-player-container, .player-container{
+    border: 2px outset black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    height: 520px;
+}
+
+.opposing-player-container img , .player-container img{
+    border: 1px black solid;
+}
+
+/* row */
+.row{
+    display: flex;
+}
